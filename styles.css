@@ -53,6 +53,7 @@ body {
 }
 
 .main div {
+    min-width: 300px;
     flex: 1 1 auto;
 }
 
@@ -74,6 +75,7 @@ body {
     height: auto;
     flex: 1 1 auto;
     margin-left: 10px;
+    border-radius: 12px;
 }
 
 .information {
@@ -90,11 +92,10 @@ body {
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
-    padding: 20px 0px;
     flex: 1;
 }
 
-.container {
+.information .container {
     flex: 1;
     display: flex;
     justify-content: space-around;
@@ -103,10 +104,11 @@ body {
   }
 
   
-.container img {
+.information .container img {
     border: 2px solid #3882F6;
     border-radius: 10px;
     padding: 12px;
+    margin-top: 24px;
     width: 120px;
     height: 120px;
 }
@@ -116,7 +118,7 @@ body {
     text-align: center;
 }
 
-.info-text {
+.info .info-text {
     text-align: center;
     color: #65676B;
     font-size: 14px;
