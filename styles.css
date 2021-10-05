@@ -77,13 +77,13 @@ body {
 }
 
 .information {
-    text-align: center;
     flex: 1;
     padding: 60px 200px;
     padding-top: 0px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: stretch;
 }
 
 .information h2 {
@@ -113,13 +113,14 @@ body {
 
 .info {
     max-width: 200px;
+    text-align: center;
 }
 
 .info-text {
     text-align: center;
     color: #65676B;
     font-size: 14px;
-    width: 100px;
+    max-width: 148px;
 }
 
 .quote-box {
@@ -130,12 +131,13 @@ body {
 }
 
 .quote-box div:nth-child(1) {
-    font-size: 36px;
+    font-size: 28px;
     font-style: italic;
     font-weight: lighter;
 }
 
 .quote-box div:nth-child(2) {
+    margin-top: 10px;
     text-align: right;
     font-size: 20px;
     font-weight: bold;
@@ -144,7 +146,7 @@ body {
 .sign-up-section {
     text-align: center;
     font-weight: bold;
-    padding: 00px 110px;
+    padding: 0px 110px;
 }
 
 .sign-up-box {
